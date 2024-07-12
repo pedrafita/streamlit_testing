@@ -17,4 +17,4 @@ df = conn.read()
 
 df2 = st.data_editor(df)
 
-df2 = conn.update(worksheet="Conference",data=df2)
+df2 = conn.update(worksheet="Sheet1",data=df2)
