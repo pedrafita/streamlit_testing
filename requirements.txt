@@ -1,3 +1,2 @@
-python 3.7
 streamlit
 git+https://github.com/streamlit/gsheets-connection
