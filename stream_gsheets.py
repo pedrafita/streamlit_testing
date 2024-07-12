@@ -15,10 +15,6 @@ conn = st.connection("gsheets", type=GSheetsConnection)
 
 df = conn.read()
 
-df
-
-
-
 df2 = st.data_editor(df)
 
 df2 = conn.update(worksheet="Conference",data=df2)
